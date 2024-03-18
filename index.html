@@ -41,7 +41,7 @@
         <div class="header">
             <h1>The Portfolio</h1>
         </div>
-        <img id="image1" src="/assets/images/pexels-markus-spiske-225769.jpg" alt="My Portfolio" />
+        <img id="image1" src="assets/images/pexels-markus-spiske-225769.jpg" alt="My Portfolio" />
         <p style="text-align: center ; font-size: x-large; color: grey;">Welcome to my Portfolio</p>
         <div style="width: 50%;">
             <button type="button" class="btn btn-secondary">Explore</button>
@@ -51,10 +51,11 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 
-    <div style="margin-top: 20px" class="clearfix">
-        <img id="image2" src="assets/images/Avatar.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="..." width="10px" height="50%"/>
+    <div style="margin-top: 20px" class="clearfix  overflow-hidden text-center">
+        <img id="image2" src="assets/images/Avatar.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="..."
+            width="10px" height="50%" />
 
-        <p style="align-items:justified " >
+        <p style="align-items:justified ">
             Samson is a junior developer with multiple interests.
 
             He is currently pursing different Tech Stacks
@@ -64,6 +65,99 @@
         </p>
         <button type="button" class="btn btn-dark">Github</button>
         <button type="button" class="btn btn-primary">LinkedIn</button>
+    </div>
+    <div>
+        <div class="Techstack-container">
+            <h2>My Techstack</h2>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/images/Python.jpg" class="d-block w-50%" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="/assets/images/JavaScript.jpg" class="d-block w-50%" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="/assets/images/Ruby.png" class="d-block w-50%" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <div>
+            <div class="projects-container">
+                <h2>My Projects</h2>
+                <div class="row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <img src="assets/images/LAnding PAge.jpg">
+                            <div class=" card-body">
+                                <h5 class="card-title">Landing Page</h5>
+                                <p class="card-text">Mock up Design of my Portfolio Landing Page
+                                </p>
+                                <a href="#" class="btn btn-primary">Visit Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <img src="/assets/images/UI-UX Page.jpg" />
+                            <div class=" card-body">
+                                <h5 class="card-title">Mobile UI-UX Page</h5>
+                                <p class="card-text">Mock up for a mobile APP home Page</p>
+                                <a href="#" class="btn btn-primary">Visit Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+    <div class="Contact-container">
+        <h2>Contact Me</h2>
+        <div class="form-content">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">email</label>
+                <input type="text" id="e-mail" name="Email" placeholder="Your Email..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="Kenya">Kenya</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
     </div>
 </body>
 
