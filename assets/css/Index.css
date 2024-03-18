@@ -40,17 +40,18 @@
 
 
 .Techstack-container{
-
+    align-content: center;
+background-color: black;
 color: grey;
-margin-left: 50%;
-font-size: 100px !important;
 font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, emoji, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-
+}
+.Techstack-container-internal{
+    margin-left: 50%;
 }
 
 .projects-container{
     
-    color: grey;
+    color: black !important;
     margin-left: 50%;
     font-size: 100px;
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, emoji, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
@@ -69,10 +70,12 @@ font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 }
 
 .Contact-container{
+    background-color: black;
     h2{color: grey; margin-left: 50%;
        
 }
     .form-content{
-        color: black;
+        align-items: center;
+        color: grey !important;
     }
 }
